@@ -4,16 +4,29 @@
     margin: 0;
     padding: 0;
 }
-main, section{
+main {
     display: flex;
+    justify-content: space-around;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid green;
+    width: 70%;
 }
 div{
-    width: 33%;
+    width: 300px;
 }
 figure {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
+}
+
+aside{
+    width: 25%;
 }
 
 .attribution { font-size: 11px; text-align: center; }
